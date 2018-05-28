@@ -1,5 +1,5 @@
 <?php
 
-echo "Esto es una página de PHP."
+echo "Esto es una página de PHP";
 
 ?>
