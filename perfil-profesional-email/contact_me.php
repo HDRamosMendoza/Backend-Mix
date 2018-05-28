@@ -1,5 +1,4 @@
 <?php
-echo "Cambios";
 // Check for empty fields
 /*if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
@@ -36,7 +35,7 @@ $headers .= "From: Geeky Theory heber.ramos.mendoza@gmail.com \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 return true; */
-<?php
+
 require 'vendor/autoload.php'; // If you're using Composer (recommended)
 // Comment out the above line if not using Composer
 // require("./sendgrid-php.php"); 
