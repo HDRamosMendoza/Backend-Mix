@@ -36,7 +36,7 @@ $headers .= "From: Geeky Theory heber.ramos.mendoza@gmail.com \r\n";
 mail($to,$email_subject,$email_body,$headers);
 return true; */
 
-require 'vendor/autoload.php'; // If you're using Composer (recommended)
+/*require 'vendor/autoload.php'; // If you're using Composer (recommended)
 // Comment out the above line if not using Composer
 // require("./sendgrid-php.php"); 
 // If not using Composer, uncomment the above line
@@ -57,5 +57,6 @@ try {
     print $response->body() . "\n";
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
-}        
+} */    
+echo "No arguments Provided!";   
 ?>
