@@ -18,7 +18,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 */
 
-$name = "name";
+/*$name = "name";
 $email_address = "email@gmail.com";
 $phone = "999130638";
 $message = "menssage";
@@ -35,5 +35,28 @@ $email_body = "Prueba";
 $headers .= "From: Geeky Theory heber.ramos.mendoza@gmail.com \r\n";   
 
 mail($to,$email_subject,$email_body,$headers);
-return true;         
+return true; */
+<?php
+require 'vendor/autoload.php'; // If you're using Composer (recommended)
+// Comment out the above line if not using Composer
+// require("./sendgrid-php.php"); 
+// If not using Composer, uncomment the above line
+
+$email = new \SendGrid\Mail\Mail(); 
+$email->setFrom("heber.ramos.mendoza@gmail.com", "Example User 1");
+$email->setSubject("Sending with SendGrid is Fun");
+$email->addTo("heber.daniel.ramos.mendoza@gmail.com", "Example User 2");
+$email->addContent("text/plain", "and easy to do anywhere, even with PHP - HEROKU");
+$email->addContent(
+    "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
+);
+$sendgrid = new \SendGrid(getenv('SG.Q68iZMrUT92kD733RNLu1Q.ZvwfcbD1UbblRXEDLvNH_W2FkzSSqMbri3QEV1NhkOEY'));
+try {
+    $response = $sendgrid->send($email);
+    print $response->statusCode() . "\n";
+    print_r($response->headers());
+    print $response->body() . "\n";
+} catch (Exception $e) {
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+}        
 ?>
