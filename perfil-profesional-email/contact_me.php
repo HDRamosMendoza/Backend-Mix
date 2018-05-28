@@ -36,7 +36,7 @@ $headers .= "From: Geeky Theory heber.ramos.mendoza@gmail.com \r\n";
 mail($to,$email_subject,$email_body,$headers);
 return true; */
 
-/*require 'vendor/autoload.php'; // If you're using Composer (recommended)
+require 'vendor/autoload.php'; // If you're using Composer (recommended)
 // Comment out the above line if not using Composer
 // require("./sendgrid-php.php"); 
 // If not using Composer, uncomment the above line
@@ -49,7 +49,7 @@ $email->addContent("text/plain", "and easy to do anywhere, even with PHP - HEROK
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
 );
-$sendgrid = new \SendGrid(getenv('SG.Q68iZMrUT92kD733RNLu1Q.ZvwfcbD1UbblRXEDLvNH_W2FkzSSqMbri3QEV1NhkOEY'));
+$sendgrid = new \SendGrid(getenv('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'));
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
@@ -57,6 +57,5 @@ try {
     print $response->body() . "\n";
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
-} */    
-echo "No arguments Provided!";   
+}     
 ?>
