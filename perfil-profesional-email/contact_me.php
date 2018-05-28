@@ -1,4 +1,5 @@
 <?php
+echo "Cambios";
 // Check for empty fields
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
@@ -9,7 +10,7 @@ if(empty($_POST['name'])      ||
    echo "No arguments Provided!";
    return false;
    }
-   echo "Cambios";
+   
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
