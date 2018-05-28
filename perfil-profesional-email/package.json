@@ -1,0 +1,11 @@
+{
+  "name": "perfil-profesional-email",
+  "version": "1.0.0",
+  "description": "Envio de correo de perfil profesional",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
