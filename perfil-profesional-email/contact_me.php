@@ -36,11 +36,19 @@ $headers .= "From: Geeky Theory heber.ramos.mendoza@gmail.com \r\n";
 mail($to,$email_subject,$email_body,$headers);
 return true; */
 
-require 'vendor/autoload.php'; // If you're using Composer (recommended)
+require 'vendor/autoload.php'; 
+
+$to = "heber.daniel.ramos.mendoza@gmail.com";
+$subject = "Asunto del email";
+$message = "Este es mi primer envío de email con PHP";
+$headers = "From: mi@cuentadeemail.com" . "\r\n" . "CC: wurbina@gmail.com";
+ 
+mail($to, $subject, $message, $headers);
+// If you're using Composer (recommended)
 // Comment out the above line if not using Composer
 // require("./sendgrid-php.php"); 
 // If not using Composer, uncomment the above line
-echo "Iniciamos";
+/*echo "Iniciamos";
 $email = new \SendGrid\Mail\Mail();
 
 echo "Primero";
@@ -51,7 +59,7 @@ echo "Segundo";
 $email->setSubject("Sending with SendGrid is Fun");
 echo "Tercero";
 $email->addTo("heber.daniel.ramos.mendoza@gmail.com", "Example User 2");
-/*$email->addContent("text/html", "and easy to do anywhere, even with PHP - HEROKU");*/
+$email->addContent("text/html", "and easy to do anywhere, even with PHP - HEROKU");
 echo "Cuarto";
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
@@ -59,7 +67,7 @@ $email->addContent(
 echo "Quinto";
 
 $apiKey = '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'
-$sendgrid = new \SendGrid($apiKey);
+$sendgrid = new \SendGrid($apiKey);*
 /*try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
