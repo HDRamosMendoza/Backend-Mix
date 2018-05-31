@@ -58,8 +58,9 @@ $email->addContent(
 );
 echo "Quinto";
 
-/*$sendgrid = new \SendGrid('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');
-try {
+$apiKey = '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'
+$sendgrid = new \SendGrid($apiKey);
+/*try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
     print_r($response->headers());
