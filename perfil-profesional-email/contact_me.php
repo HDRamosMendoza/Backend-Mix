@@ -45,7 +45,7 @@ $email = new \SendGrid\Mail\Mail();
 $email->setFrom("heber.ramos.mendoza@gmail.com", "Example User 1");
 $email->setSubject("Sending with SendGrid is Fun");
 $email->addTo("heber.daniel.ramos.mendoza@gmail.com", "Example User 2");
-$email->addContent("text/plain", "and easy to do anywhere, even with PHP - HEROKU");
+$email->addContent("text/html", "and easy to do anywhere, even with PHP - HEROKU");
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
 );
