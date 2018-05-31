@@ -49,7 +49,7 @@ $email->addContent("text/plain", "and easy to do anywhere, even with PHP - HEROK
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
 );
-$sendgrid = new \SendGrid(getenv('DoZpvheCTm64tvoNrXMyig'));
+$sendgrid = new \SendGrid(getenv('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'));
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
