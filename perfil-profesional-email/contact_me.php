@@ -42,15 +42,19 @@ require 'vendor/autoload.php'; // If you're using Composer (recommended)
 // If not using Composer, uncomment the above line
 echo "Iniciamos";
 $email = new \SendGrid\Mail\Mail();
+
 echo "Segundo";
+
 $email->setFrom("heber.ramos.mendoza@gmail.com", "Example User 1");
 echo "Tercero";
-/*$email->setSubject("Sending with SendGrid is Fun");
+
+$email->setSubject("Sending with SendGrid is Fun");
 $email->addTo("heber.daniel.ramos.mendoza@gmail.com", "Example User 2");
-$email->addContent("text/html", "and easy to do anywhere, even with PHP - HEROKU");
+/*$email->addContent("text/html", "and easy to do anywhere, even with PHP - HEROKU");*/
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
-);*/
+);
+echo "Cuarto";
 
 /*$sendgrid = new \SendGrid('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');
 try {
