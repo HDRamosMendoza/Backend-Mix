@@ -43,10 +43,10 @@ require 'vendor/autoload.php'; // If you're using Composer (recommended)
 echo "Iniciamos";
 $email = new \SendGrid\Mail\Mail();
 
-echo "Segundo";
+echo "Primero";
 
 $email->setFrom("heber.ramos.mendoza@gmail.com", "Example User 1");
-echo "Tercero";
+echo "Segundo";
 
 $email->setSubject("Sending with SendGrid is Fun");
 $email->addTo("heber.daniel.ramos.mendoza@gmail.com", "Example User 2");
@@ -54,7 +54,7 @@ $email->addTo("heber.daniel.ramos.mendoza@gmail.com", "Example User 2");
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
 );
-echo "Cuarto";
+echo "Tercero";
 
 /*$sendgrid = new \SendGrid('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');
 try {
