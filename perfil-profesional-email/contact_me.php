@@ -49,12 +49,14 @@ $email->setFrom("heber.ramos.mendoza@gmail.com", "Example User 1");
 echo "Segundo";
 
 $email->setSubject("Sending with SendGrid is Fun");
+echo "Tercero";
 $email->addTo("heber.daniel.ramos.mendoza@gmail.com", "Example User 2");
 /*$email->addContent("text/html", "and easy to do anywhere, even with PHP - HEROKU");*/
+echo "Cuarto";
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
 );
-echo "Tercero";
+echo "Quinto";
 
 /*$sendgrid = new \SendGrid('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');
 try {
