@@ -49,7 +49,8 @@ $email->addContent("text/html", "and easy to do anywhere, even with PHP - HEROKU
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP - HEROKU</strong>"
 );
-$sendgrid = new \SendGrid('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');
+echo "Hola Mundo MIERDA"
+/*$sendgrid = new \SendGrid('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');
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
@@ -57,5 +58,5 @@ try {
     print $response->body() . "\n";
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
-}     
+} */    
 ?>
