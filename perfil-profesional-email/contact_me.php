@@ -40,11 +40,11 @@ require 'vendor/autoload.php'; // If you're using Composer (recommended)
 // Comment out the above line if not using Composer
 // require("./sendgrid-php.php"); 
 // If not using Composer, uncomment the above line
-echo "Iniciamos"
+echo "Iniciamos";
 $email = new \SendGrid\Mail\Mail();
-echo "Segundo" 
+echo "Segundo";
 $email->setFrom("heber.ramos.mendoza@gmail.com", "Example User 1");
-echo "Tercero"
+echo "Tercero";
 /*$email->setSubject("Sending with SendGrid is Fun");
 $email->addTo("heber.daniel.ramos.mendoza@gmail.com", "Example User 2");
 $email->addContent("text/html", "and easy to do anywhere, even with PHP - HEROKU");
