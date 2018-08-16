@@ -1,13 +1,10 @@
-﻿<%@ Register TagPrefix="aspmap" Namespace="AspMap.Web" Assembly="AspMapNET" %>
-
-<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Principal.aspx.vb" Inherits="Principal" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Principal.aspx.vb" Inherits="Principal" %>
+<%@ Register TagPrefix="aspmap" Namespace="AspMap.Web" Assembly="AspMapNET" %>
 
 <!DOCTYPE html>
 <html lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Demo DANIEL</title>
-
-
 
     <!-- META -->
     <meta name="encoding" charset="UTF-8" />
@@ -19,7 +16,6 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-
 </head>
 <body>
     <form runat="server">

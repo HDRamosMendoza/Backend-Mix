@@ -1,21 +1,39 @@
 ﻿window.onload = function () {
     // Resize map - IE 8, 7, 6, 5
     function resizeMap() {
-        /*
-        const MAIN_MAP = AspMap.find('mainMap');
+        console.log(`FUNCTION - RESIZE`);
+        const MAIN_MAP = AspMap.find('Main_Map');
         const MAIN_WIDTH = window.innerWidth
             || document.documentElement.clientWidth
             || document.body.clientWidth;
         const MAIN_HEIGHT = window.innerHeight
             || document.documentElement.clientHeight
             || document.body.clientHeight;
-        //let [dWidth, dHeight] = [MAIN_WIDTH,MAIN_HEIGHT];
-        //console.log(`WIDTH: ${dWidth} - HEIGHT: ${dHeight}`);
-        map.resizeTo(MAIN_WIDTH, MAIN_HEIGHT);
-        */
+        let [dWidth, dHeight] = [MAIN_WIDTH,MAIN_HEIGHT];
+        console.log(`WIDTH: ${dWidth} - HEIGHT: ${dHeight}`);
+        MAIN_MAP.resizeTo(MAIN_WIDTH,MAIN_HEIGHT);
     }
     resizeMap();
+
+    window.onresize = function(){
+        //console.log(`FUNCTION - RESIZE`);
+        resizeMap();
+    }
     
+    /*
+    // Media QUERY
+    // Extra large devices (large desktops, 1200px and up)
+    var mediaExtraXLarge = matchMedia('(min-width: 1500px)');
+    mediaExtraXLarge.addListener(function (mediaQuery) {
+        if (mediaQuery.matches) {
+            console.log("Coincide - Media Extra Large !!");
+            resizeMap();
+        } else {
+            resizeMap();
+            console.log("No coincide - Media Extra Large !!");
+        }
+    });
+
     // Extra large devices (large desktops, 1200px and up)
     var mediaExtraLarge = matchMedia('(min-width: 1200px)');
     mediaExtraLarge.addListener(function (mediaQuery) {
@@ -23,6 +41,7 @@
             console.log("Coincide - Media Extra Large !!");
             resizeMap();
         } else {
+            resizeMap();
             console.log("No coincide - Media Extra Large !!");
         }
     });
@@ -36,6 +55,7 @@
         } else {
             console.log("No coincide - Media Large !!");
         }
+        
     });
 
     // Medium devices (tablets, 768px and up)
@@ -56,20 +76,61 @@
             resizeMap();
             console.log("Coincide - Small !!");
         } else {
+            resizeMap();
             console.log("No coincide - Small !!");
         }
     });
 
-    function mouseMoveHandler(sender, e) {
-        document.getElementById("hfXCoord").value = e.latitude
-        document.getElementById("hfYCoord").value = e.longitude
-    }
+    // Extra large devices (large desktops, 1200px and up)
+    var heightExtraLarge = matchMedia('(min-height: 1200px)');
+    heightExtraLarge.addListener(function (mediaQuery) {
+        if (mediaQuery.matches) {
+            console.log("Coincide - Height Extra Large !!");
+            resizeMap();
+        } else {
+            resizeMap();
+            console.log("No coincide - Height Extra Large !!");
+        }
+    });
 
-    function ActMouseMove() {
-        var mapXY = AspMap.getMap('mainMap');
-        mapXY.add_mouseMove(mouseMoveHandler);
-    }
+    // Large devices (desktops, 992px and up)
+    var heightLarge = matchMedia('(min-height: 992px)');
+    heightLarge.addListener(function (mediaQuery) {
+        if (mediaQuery.matches) {
+            console.log("Coincide - Height Large !!");
+            resizeMap();
+        } else {
+            resizeMap();
+            console.log("No coincide - Height Large !!");
+        }
+    });
+
+    // Medium devices (tablets, 768px and up)
+    var heightMedium = matchMedia('(min-height: 768px)');
+    heightMedium.addListener(function (mediaQuery) {
+        if (mediaQuery.matches) {
+            resizeMap();
+            console.log("Coincide - Height Medium !!");
+        } else {
+            resizeMap();
+            console.log("No coincide - Height Medium !!");
+        }
+    });
+
+    // Small devices (landscape phones, 576px and up)
+    var heightSmall = matchMedia('(min-height: 576px)');
+    heightSmall.addListener(function (mediaQuery) {
+        if (mediaQuery.matches) {
+            resizeMap();
+            console.log("Coincide - Height Small !!");
+        } else {
+            resizeMap();
+            console.log("No coincide - Height Small !!");
+        }
+    });
+    */
 }
+
 /********************************** PRIMERA VERSIÓN
 // Extra large devices (large desktops, 1200px and up)
 var mediaExtraLarge = matchMedia('(min-width: 1200px)');
