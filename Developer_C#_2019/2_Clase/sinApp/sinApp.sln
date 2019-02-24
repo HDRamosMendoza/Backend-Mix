@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Entities", "Chinook.Entities\Chinook.Entities.csproj", "{4DB08A0F-1EA9-4825-A356-ADEBCC520784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Data", "Chinook.Data\Chinook.Data.csproj", "{D7F3D009-EF06-471C-8341-32FA521BAE30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Data.Test", "Chinook.Data.Test\Chinook.Data.Test.csproj", "{81267BAC-E03D-4B9B-AE90-27815BF5EF5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.UI.MVC", "Chinook.UI.MVC\Chinook.UI.MVC.csproj", "{415B4DA0-704E-4ABD-9A1A-99CC787D6258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.UI.Desktop", "Chinook.UI.Desktop\Chinook.UI.Desktop.csproj", "{DA783C5C-5AFB-4CB5-A254-C3212CA1ECD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB08A0F-1EA9-4825-A356-ADEBCC520784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB08A0F-1EA9-4825-A356-ADEBCC520784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB08A0F-1EA9-4825-A356-ADEBCC520784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB08A0F-1EA9-4825-A356-ADEBCC520784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F3D009-EF06-471C-8341-32FA521BAE30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F3D009-EF06-471C-8341-32FA521BAE30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F3D009-EF06-471C-8341-32FA521BAE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F3D009-EF06-471C-8341-32FA521BAE30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81267BAC-E03D-4B9B-AE90-27815BF5EF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81267BAC-E03D-4B9B-AE90-27815BF5EF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81267BAC-E03D-4B9B-AE90-27815BF5EF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81267BAC-E03D-4B9B-AE90-27815BF5EF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415B4DA0-704E-4ABD-9A1A-99CC787D6258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415B4DA0-704E-4ABD-9A1A-99CC787D6258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415B4DA0-704E-4ABD-9A1A-99CC787D6258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415B4DA0-704E-4ABD-9A1A-99CC787D6258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA783C5C-5AFB-4CB5-A254-C3212CA1ECD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA783C5C-5AFB-4CB5-A254-C3212CA1ECD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA783C5C-5AFB-4CB5-A254-C3212CA1ECD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA783C5C-5AFB-4CB5-A254-C3212CA1ECD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98DEDE0F-DEC9-430F-993F-B1D26E93FDDB}
+	EndGlobalSection
+EndGlobal

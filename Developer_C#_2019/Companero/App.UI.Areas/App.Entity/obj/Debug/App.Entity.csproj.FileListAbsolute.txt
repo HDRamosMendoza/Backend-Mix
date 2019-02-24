@@ -1,0 +1,12 @@
+C:\Users\gflores.ENPROYEC\Desktop\VS2017_GFL\Cap01\Tarea\App.UI.Areas\App.Entity\bin\Debug\App.Entity.dll
+C:\Users\gflores.ENPROYEC\Desktop\VS2017_GFL\Cap01\Tarea\App.UI.Areas\App.Entity\bin\Debug\App.Entity.pdb
+C:\Users\gflores.ENPROYEC\Desktop\VS2017_GFL\Cap01\Tarea\App.UI.Areas\App.Entity\obj\Debug\App.Entity.csprojAssemblyReference.cache
+C:\Users\gflores.ENPROYEC\Desktop\VS2017_GFL\Cap01\Tarea\App.UI.Areas\App.Entity\obj\Debug\App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\gflores.ENPROYEC\Desktop\VS2017_GFL\Cap01\Tarea\App.UI.Areas\App.Entity\obj\Debug\App.Entity.dll
+C:\Users\gflores.ENPROYEC\Desktop\VS2017_GFL\Cap01\Tarea\App.UI.Areas\App.Entity\obj\Debug\App.Entity.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\App.UI.Areas\App.Entity\bin\Debug\App.Entity.dll
+C:\Users\VS2017-DEVELOPER\Desktop\App.UI.Areas\App.Entity\bin\Debug\App.Entity.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\App.UI.Areas\App.Entity\obj\Debug\App.Entity.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Desktop\App.UI.Areas\App.Entity\obj\Debug\App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Desktop\App.UI.Areas\App.Entity\obj\Debug\App.Entity.dll
+C:\Users\VS2017-DEVELOPER\Desktop\App.UI.Areas\App.Entity\obj\Debug\App.Entity.pdb
