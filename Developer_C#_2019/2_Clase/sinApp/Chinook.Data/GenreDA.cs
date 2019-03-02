@@ -37,17 +37,12 @@ namespace Chinook.Data
             using (IDbConnection cn = new SqlConnection(GetConection()))
             {
                 cn.Open();
-                /* 2. Creando una instancia del objeto command. */
                 IDbCommand cmd = new SqlCommand(sql);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Connection = cn;
-                /* Configurando los parametros de la consulta SQL. */
-                /* Estamos evitando la vulnerabilidad de SQL INJECTION. */
-                /* _ _ LIKE " + NOMBRE + "  " */
-                cmd.Parameters.Add(new SqlParameter("@GenreId", entity.GenreId));
+                cmd.Parameters.Add(new SqlParameter("@GenreID", entity.GenreId));
                 cmd.Parameters.Add(new SqlParameter("@Nombre", entity.Name));
-
-                /* Ejecutando el comando. */
+                
                 result = Convert.ToInt32(cmd.ExecuteScalar());
 
             }
@@ -63,13 +58,9 @@ namespace Chinook.Data
             using (IDbConnection cn = new SqlConnection(GetConection()))
             {
                 cn.Open();
-                /* 2. Creando una instancia del objeto command. */
                 IDbCommand cmd = new SqlCommand(sql);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Connection = cn;
-                /* Configurando los parametros de la consulta SQL. */
-                /* Estamos evitando la vulnerabilidad de SQL INJECTION. */
-                /* _ _ LIKE " + NOMBRE + "  " */
                 cmd.Parameters.Add(new SqlParameter("@GenreId", entity.GenreId));
 
                 /* Ejecutando el comando. */

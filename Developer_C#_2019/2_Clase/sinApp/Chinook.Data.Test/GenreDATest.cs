@@ -17,5 +17,27 @@ namespace Chinook.Data.Test
             var cantidad = da.GetCount();
             Assert.IsTrue(cantidad > 0);
         }
+
+        [TestMethod]
+        public void UpdateGenre()
+        {
+            var da = new GenreDA();
+                
+            var id = da.UpdateGenre(new Genre() {GenreId=3,Name="Prueba de Update 2"});
+            Assert.IsTrue(id > 0);
+        }
+
+        [TestMethod]
+        public void DeleteGenre()
+        {
+            var da = new GenreDA();
+
+            var id = da.DeleteGenre(new Genre()
+            {
+                GenreId = 6
+            });
+            Assert.IsTrue(id > 0);
+        }
+
     }
 }

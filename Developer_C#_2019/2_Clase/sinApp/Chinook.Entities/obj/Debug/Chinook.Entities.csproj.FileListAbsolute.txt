@@ -1,0 +1,6 @@
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Entities\bin\Debug\Chinook.Entities.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Entities\bin\Debug\Chinook.Entities.pdb
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
