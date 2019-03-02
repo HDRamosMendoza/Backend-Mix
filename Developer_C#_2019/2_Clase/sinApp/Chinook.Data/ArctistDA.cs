@@ -3,9 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Chinook.Data
 {
@@ -14,8 +11,8 @@ namespace Chinook.Data
         public int GetCount()
         {
             var result = 0;
-                       var sql = "SELECT COUNT(1) FROM Artist";
- /* 1. Crear el objeto connection. */
+            var sql = "SELECT COUNT(1) FROM Artist";
+            /* 1. Crear el objeto connection. */
             using (IDbConnection cn = new SqlConnection(GetConection()))
             {
                 cn.Open();
