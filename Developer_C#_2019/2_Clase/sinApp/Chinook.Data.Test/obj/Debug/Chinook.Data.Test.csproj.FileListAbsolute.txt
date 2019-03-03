@@ -19,3 +19,5 @@ C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CopyComplete
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.dll
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.pdb
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data.Test\bin\Debug\Dapper.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data.Test\bin\Debug\Dapper.xml

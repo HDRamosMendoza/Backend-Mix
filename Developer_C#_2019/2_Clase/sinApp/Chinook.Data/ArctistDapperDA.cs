@@ -106,20 +106,16 @@ namespace Chinook.Data
                 try
                 {
                     result = cn.Query(sql,
-                     new { Nombre = entity.Name },
-                     commandType: CommandType.StoredProcedure).Single();
-                    transaction.Commit();
-
+                    new { Nombre = entity.Name },
+                    commandType: CommandType.StoredProcedure,
+                    transaction: transaction).Single();
                 }
                 catch(Exception ex)
                 {
                     // Con el metodo Rollback se deshace la transacción
                     transaction.Rollback();
-
                 }
             }
-
-
             return result;
         }
 
@@ -158,7 +154,42 @@ namespace Chinook.Data
             return result;
         }
 
+        public int UpdateArtistTXDist(Artist entity)
+        {
+            /* Transacciones distribuidas */
+            Boolean result = false;
 
+            using (var tx = new TransactionScope())
+            {
+                try
+                {
+                    var dynamicParams = new DynamicParameters();
+                    dynamicParams.Add("Nombre", entity.Name);
+                    dynamicParams.Add("ID", entity.ArtistId);
+                    dynamicParams.Add("Nombre", dbType:DbType.Int32,
+                        direction:ParameterDirection.Output);
+
+
+                    var sql = "usp_UpdateArtist";
+                    /*  Crear el objeto connection. */
+                    using (IDbConnection cn = new SqlConnection(GetConection()))
+                    {
+                        cn.Query(sql,
+                           dynamicParams,
+                           commandType: CommandType.StoredProcedure);
+
+                        result = dynamicParams.Get<Boolean>("RESULT");
+                    }
+                    /* No se usa rollback no es necesario */
+                    tx.Complete();
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+            return result;
+        }
 
     }
 }

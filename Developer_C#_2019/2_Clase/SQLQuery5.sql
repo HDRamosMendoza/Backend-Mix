@@ -68,3 +68,24 @@ END
 -- En oracle.
 -- Oracle corens
 
+CREATE PROCEDURE usp_UpdateArtist(
+	@NOMBRE  NVARCHAR(120),
+	@ID INT,
+	@RESULT BIT OUTPUT
+)
+AS
+BEGIN 
+	UPDATE Artist
+	SET ArtistId = @ID
+	WHERE Name = @NOMBRE ;
+	
+END
+
+CREATE PROCEDURE usp_DeleteArtist(
+	@ID INT
+)
+AS
+BEGIN 
+	DELETE FROM Artist
+	WHERE ArtistId = @ID
+END
