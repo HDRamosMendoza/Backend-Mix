@@ -1,0 +1,25 @@
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.exe.config
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.exe
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.pdb
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csprojResolveAssemblyReference.cache
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.Properties.Resources.resources
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csproj.GenerateResource.Cache
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csproj.CoreCompileInputs.cache
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.exe
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.pdb
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.Form1.resources
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.Entities.dll
+E:\VS2017_JTG\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.Entities.pdb
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.exe.config
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.exe
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.pdb
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.Entities.dll
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.Entities.pdb
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csprojAssemblyReference.cache
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.Form1.resources
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.Properties.Resources.resources
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csproj.GenerateResource.cache
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csproj.CoreCompileInputs.cache
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csproj.CopyComplete
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.exe
+\\192.168.4.240\S221 - Compartido\Comp VS2017-DEVELOPER\Cap01\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.pdb

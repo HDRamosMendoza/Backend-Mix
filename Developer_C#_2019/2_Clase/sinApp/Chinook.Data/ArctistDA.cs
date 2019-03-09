@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Transactions;
 
 namespace Chinook.Data
 {
@@ -155,5 +156,86 @@ namespace Chinook.Data
             }
             return result;
         }
+
+        /* Transaccion */
+        public int InsertArtistTX(Artist entity)
+        {
+            var result = 0;
+            var sql = "usp_InsertArtist";
+            using (IDbConnection cn = new SqlConnection(GetConection()))
+            {
+                /* 1. Crear el objeto connection. */
+                cn.Open();
+                /*  Iniciando la transaccion local*/
+                var transaction = cn.BeginTransaction();
+
+                try
+                {
+                    IDbCommand cmd = new SqlCommand(sql);
+                    cmd.Transaction = transaction;
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Connection = cn;
+                    cmd.Parameters.Add(new SqlParameter("@Nombre", entity.Name));
+
+                    /* Ejecutando el comando. */
+                    result = Convert.ToInt32(cmd.ExecuteScalar());
+
+                    /* Simular un ERROR */
+                    /*throw new Exception("Error de transaccion");*/
+
+
+                    /* Con el metodo commit se confirma la transaccion */
+                    transaction.Commit();
+
+                }
+                catch(Exception ex)
+                {
+                    // Con el metodo Rollback se deshace la transacción
+                    transaction.Rollback();
+
+                }
+            }
+
+
+            return result;
+        }
+
+
+        public int InsertArtistTXDist(Artist entity)
+        {
+            /* Transacciones distribuidas */
+            var result = 0;
+            
+            using (var tx = new TransactionScope())
+            {
+                try {
+                    var sql = "usp_InsertArtist";
+                    /*  Crear el objeto connection. */
+                    using (IDbConnection cn = new SqlConnection(GetConection()))
+                    {
+                        cn.Open();
+                        /* 2. Creando una instancia del objeto command. */
+                        IDbCommand cmd = new SqlCommand(sql);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Connection = cn;
+                        cmd.Parameters.Add(new SqlParameter("@Nombre", entity.Name));
+
+                        /* Ejecutando el comando. */
+                        result = Convert.ToInt32(cmd.ExecuteScalar());
+
+                    }
+                    /* No se usa rollback no es necesario */
+                    tx.Complete();
+                }
+                catch(Exception)
+                {
+
+                }
+            }
+            return result;
+        }
+
+
+
     }
 }
