@@ -10,8 +10,9 @@ namespace Chinook.Data
     {
         public string GetConection()
         {
-            string cadenaConexion = "Server=S000-00;DataBase=ChinookSabado;User ID=sa; Password=sql;";
-            return cadenaConexion;
+            //return "Server=S000-00;DataBase=ChinookSabado;User ID=sa; Password=sql;";
+            return "Server=DANIEL-RAMOS\\SQLEXPRESS;DataBase=ChinookSabado;" +
+                    "Password=administradorSQL; User ID=sa;";
         }
     }
 }

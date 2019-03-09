@@ -9,3 +9,6 @@ C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data\obj\Debug\Chinook.Data.pdb
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data\bin\Debug\Dapper.dll
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data\bin\Debug\Dapper.xml
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data\obj\Debug\Chinook.Data.csprojAssemblyReference.cache
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CoreCompileInputs.cache
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data\obj\Debug\Chinook.Data.pdb

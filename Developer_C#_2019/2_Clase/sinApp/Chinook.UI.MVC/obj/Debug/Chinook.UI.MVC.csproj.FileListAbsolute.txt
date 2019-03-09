@@ -89,3 +89,6 @@ C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.csproj.CopyComplete
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.dll
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.pdb
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.csprojAssemblyReference.cache
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.csproj.CoreCompileInputs.cache
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.MVC\obj\Debug\Chinook.UI.MVC.pdb

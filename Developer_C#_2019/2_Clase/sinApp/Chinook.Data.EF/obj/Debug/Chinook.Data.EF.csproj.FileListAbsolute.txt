@@ -1,0 +1,2 @@
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data.EF\obj\Debug\Chinook.Data.EF.csprojAssemblyReference.cache
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.Data.EF\obj\Debug\Chinook.Data.EF.csproj.CoreCompileInputs.cache

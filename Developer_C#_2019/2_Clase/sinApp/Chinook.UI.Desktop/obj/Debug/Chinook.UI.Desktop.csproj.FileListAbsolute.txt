@@ -13,3 +13,10 @@ C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CopyComplete
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
 C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csprojAssemblyReference.cache
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.Form1.resources
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.Properties.Resources.resources
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.GenerateResource.cache
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CoreCompileInputs.cache
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
+D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\2_Clase\sinApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb
