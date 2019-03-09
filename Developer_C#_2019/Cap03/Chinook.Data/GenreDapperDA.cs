@@ -96,7 +96,7 @@ namespace Chinook.Data
                 }
                 catch (Exception)
                 {
-
+                    result = false;
                 }
             }
             return result;

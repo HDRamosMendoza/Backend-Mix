@@ -65,5 +65,14 @@ namespace Chinook.Data.Test
             );
             Assert.IsTrue(resultado);
         }
+
+        [TestMethod]
+        public void DeleteAlbumTXDist()
+        {
+            var da = new AlbumDapperDA();
+            var resultado = da.DeleteAlbumTXDist(2);
+            Assert.IsTrue(resultado);
+        }
+
     }
 }

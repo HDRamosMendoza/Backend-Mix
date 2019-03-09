@@ -64,5 +64,13 @@ namespace Chinook.Data.Test
             );
             Assert.IsTrue(resultado);
         }
+
+        [TestMethod]
+        public void DeleteGenreTXDist()
+        {
+            var da = new GenreDapperDA();
+            var resultado = da.DeleteGenreTXDist(2);
+            Assert.IsTrue(resultado);
+        }
     }
 }

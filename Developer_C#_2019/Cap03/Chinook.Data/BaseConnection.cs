@@ -36,8 +36,10 @@ namespace Chinook.Data
 
         public string GetConection()
         {
-            return  "Server=DANIEL-RAMOS\\SQLEXPRESS;DataBase=ChinookSabado;" +
-                    "Password=administradorSQL; User ID=sa;";
+            /*return "Server=DANIEL-RAMOS\\SQLEXPRESS;DataBase=ChinookSabado;" +
+                    "Password=administradorSQL; User ID=sa;";*/
+            return "Server=S000-00;DataBase=ChinookSabado;" +
+                    "Password=sql; User ID=sa;";
         }
 
         //Propiedades

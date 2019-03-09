@@ -1,0 +1,14 @@
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\Chinook.Data.EF.dll.config
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\Chinook.Data.EF.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\Chinook.Data.EF.pdb
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\Chinook.Entitites.Base.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\EntityFramework.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\Chinook.Entitites.Base.pdb
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\EntityFramework.xml
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\obj\Debug\Chinook.Data.EF.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\obj\Debug\Chinook.Data.EF.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\obj\Debug\Chinook.Data.EF.csproj.CopyComplete
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\obj\Debug\Chinook.Data.EF.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Data.EF\obj\Debug\Chinook.Data.EF.pdb

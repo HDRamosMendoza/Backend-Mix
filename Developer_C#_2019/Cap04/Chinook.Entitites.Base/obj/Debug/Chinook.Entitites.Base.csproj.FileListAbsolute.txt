@@ -1,0 +1,2 @@
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Entitites.Base\obj\Debug\Chinook.Entitites.Base.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Entitites.Base\obj\Debug\Chinook.Entitites.Base.csproj.CoreCompileInputs.cache

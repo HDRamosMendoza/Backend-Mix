@@ -10,3 +10,8 @@ D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\obj\De
 D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
 D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\obj\Debug\Chinook.Entities.dll
 D:\RepositorioGitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\bin\Debug\Chinook.Entities.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\bin\Debug\Chinook.Entities.pdb
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\obj\Debug\Chinook.Entities.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap03\Chinook.Entities\obj\Debug\Chinook.Entities.pdb

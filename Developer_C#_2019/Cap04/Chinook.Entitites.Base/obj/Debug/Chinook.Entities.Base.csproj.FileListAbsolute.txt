@@ -1,0 +1,5 @@
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Entitites.Base\bin\Debug\Chinook.Entitites.Base.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Entitites.Base\bin\Debug\Chinook.Entitites.Base.pdb
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Entitites.Base\obj\Debug\Chinook.Entities.Base.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Entitites.Base\obj\Debug\Chinook.Entitites.Base.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap04\Chinook.Entitites.Base\obj\Debug\Chinook.Entitites.Base.pdb
