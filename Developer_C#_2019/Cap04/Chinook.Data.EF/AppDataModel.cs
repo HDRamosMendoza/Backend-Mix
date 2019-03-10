@@ -10,6 +10,14 @@ namespace Chinook.Entities.Base
         public AppDataModel()
             : base("name=cnxAppDatModel")
         {
+            // Desabilitando el LazyLoading de entity framework.
+            this.Configuration.LazyLoadingEnabled = false;
+
+            this.Configuration.ProxyCreationEnabled = false;
+
+            this.Configuration.AutoDetectChangesEnabled = false;
+
+            this.Configuration.ValidateOnSaveEnabled = false;
         }
         /*
          * En la generacion inversar. SALIO  QUE TABLAS

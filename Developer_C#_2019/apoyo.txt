@@ -1,0 +1,42 @@
+en Chinook.Entities.Base (App.DatModel  no va solo identidades)
+	- Agregar referencia: SYSTEM.cOMPONENTmODEL.DataAnnotations
+	
+	EDITAR -> BUSCAR Y REEMPLAZAR	
+	using System.Data.Entity.Spatial;
+	
+	namespace Chinook.DataEF
+	namespace Chinook.Entities.Base
+	
+	Chinook.DataE.F
+	Agregamos referencia: Chinook.Entities.Base
+	
+	DBContext es la clase que se conecta a la base de datos
+	
+	
+	
+	
+	/**/
+	En donde esta reffenciado entity framework. 
+	chinook.Data.rf
+		entityframework
+			s.ql
+	
+	El problema esta en donde se utiliza entitu framewor se debe de instalar
+	
+	El problema es enm donde se teve de usar en entiti framework
+	
+	Se debe de instalar.
+	
+	instalar en Chinook.Data.EF.Test
+	 Antes de instalar se debe de fijar que entity framework tiene  en 	Chinook.Dta.EF
+	 
+	  <package id="EntityFramework" version="6.2.0" targetFramework="net461" />
+	  
+	  Install-Package EntityFramework -version 6.2.0
+	  Se instala en Chinook.Data.Ef.Test
+	  
+	  No vamos ArtistRepository.cs y agregasmos IEnumerable<Arstist> GetAll(string nombre)
+	  Vamos AGREGAR LA PRUEBA	S UNITARIAS [TestMethod]
+        public void GetAll()
+		
+		
