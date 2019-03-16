@@ -26,7 +26,11 @@ namespace Chinook.Data.EF.Test
         public void UpdateAddress()
         {
             var rep = new CustomerRepository();
-            rep.UpdateAddress();
+            rep.UpdateAddress(
+                new Customer() {
+                        
+                }
+            );
 
 
         }

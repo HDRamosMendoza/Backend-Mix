@@ -1,0 +1,26 @@
+992794467
+pablo.lopez@cibertec.pe
+
+ProxyCreationEnabled
+- Te crea un objeto para que sea accesible en otras capas
+
+AutoDetectCahngeEnabled
+- Caundo cambiamos el registro
+
+ValidateOnSaveEnabled.
+- La identidad tiene ciertas validaciones,que el campo tiene mas de 30 carcteres,
+  Desabilitar validaciones
+
+# Edger loading.
+
+#
+
+MStest.TestAdapter
+MStest.TestFramework
+
+Pasos.
+
+1. Se creo test UpdateAddress y Update.
+2. 
+
+
