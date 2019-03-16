@@ -55,6 +55,12 @@ namespace Chinook.Data.EF.Repositories
             //Unchanged a Modified
             _context.Entry(entity).State = 
                 EntityState.Modified;
+            /*
+             _context.Entry(entity)
+                .Property(item => item.UsuarioCreador).IsModifield = flase;
+             _context.Entry(entry)
+                .Property(item = item.FechaCreacion.IsModifield = false;)
+             */
 
             //Confirmando la operación
             var result = _context.SaveChanges();
@@ -79,11 +85,12 @@ namespace Chinook.Data.EF.Repositories
 
         }
 
-        public bool UpdateAddress(Customer entity )
+        public bool UpdateAddress(Customer entity)
         {
-            var found =_context.Customer.Find(entity.CustomerId);
+            var found = _context.Customer.Find(entity.CustomerId);
             found.Address = entity.Address;
             found.Phone = entity.Phone;
+
             _context.Entry(found)
                 .Property(item => item.Address).IsModified = true;
             _context.Entry(found)
@@ -91,6 +98,18 @@ namespace Chinook.Data.EF.Repositories
 
             var result = _context.SaveChanges();
 
+            return result > 0;
+        }
+
+        // Con attach para campos especificos
+        public bool UpdateAddressAttach(Customer entity)
+        {
+            _context.Customer.Attach(entity);
+            _context.Entry(entity)
+                .Property(item => item.Address).IsModified = true;
+            _context.Entry(entity)
+                .Property(item => item.Phone).IsModified = true;
+            var result = _context.SaveChanges();
             return result > 0;
         }
 
