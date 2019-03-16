@@ -62,5 +62,21 @@ namespace Chinook.Entities.Base.Repositories
         {
             return _context.Customer.Find(id);
         }
+
+
+
+        public bool UpdateAddress(Customer entity) {
+            var found = _context.Customer.Find(entity.CustomerId);
+            found.Address = entity.Address;
+            found.Phone = entity.Phone;
+            _context.Entry(found)
+                .Property(item => item.Address).IsModified = true;
+            _context.Entry(found)
+                .Property(item => item.Phone).IsModified = true;
+
+            var result = _context.SaveChanges();
+
+            return result > 0;
+        }
     }
 }
