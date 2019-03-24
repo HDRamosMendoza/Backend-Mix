@@ -1,0 +1,7 @@
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap07\snlApp\App.Services.WCFLib\bin\Debug\App.Services.WCFLib.dll.config
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap07\snlApp\App.Services.WCFLib\bin\Debug\App.Services.WCFLib.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap07\snlApp\App.Services.WCFLib\bin\Debug\App.Services.WCFLib.pdb
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLib.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLib.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLib.dll
+C:\Users\VS2017-DEVELOPER\Documents\GitHub\Backend-Mix\Developer_C#_2019\Cap07\snlApp\App.Services.WCFLib\obj\Debug\App.Services.WCFLib.pdb
