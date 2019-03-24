@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using App.Data.DataAccess;
 using App.Data.Repository.Interface;
 using App.Entities.Base;
+using System.Linq.Expressions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
 namespace App.Data.Repository.Test
 {
@@ -110,10 +112,16 @@ namespace App.Data.Repository.Test
             List<Artist> result = null;
             using (var unitOfWork = new AppUnitOfWork())
             {
-                result = unitOfWork.ArtistRepository.GetAll();
-                // No es necesario usar el COMPLETE
-                //unitOfWork.Complete();
+                //result = unitOfWork.ArtistRepository.GetAll();
+                result = unitOfWork.ArtistRepository.GetAll(
+                    item=>item.Name.StartsWith("b") && item.ArtistId >= 13,
+                    item=>item.OrderBy(itemOrder=>itemOrder.Name),
+                    null, "Album"
+                    //item=>new Artist() {ArtistId=item.ArtistId}
+                    );
             }
+            // result  = unitOfWork.ArtistRepository.GetAll(item=>item.Name.Contains("body"));
+
             Assert.IsNotNull(result);
         }
 
