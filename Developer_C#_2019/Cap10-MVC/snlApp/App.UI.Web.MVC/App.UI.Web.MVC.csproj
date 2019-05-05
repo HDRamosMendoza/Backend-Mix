@@ -166,6 +166,7 @@
     <Content Include="Content\theme\img\3.png" />
     <Content Include="Content\theme\img\4.png" />
     <Content Include="Content\theme\img\find_user.png" />
+    <Content Include="Content\theme\img\loading.gif" />
     <Content Include="Content\theme\js\bootstrap.min.js" />
     <Content Include="Content\theme\js\custom.js" />
     <Content Include="Content\theme\js\dataTables\dataTables.bootstrap.css" />
@@ -220,6 +221,7 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Properties\DataSources\App.Entities.Base.Artist.datasource" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

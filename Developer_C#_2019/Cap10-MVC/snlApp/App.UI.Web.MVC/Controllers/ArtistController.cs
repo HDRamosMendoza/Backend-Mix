@@ -36,6 +36,8 @@ namespace App.UI.Web.MVC.Controllers
             var listado = mantenimientosServiceClient.GetArtistAll(artistaNombre);
             ViewBag.artistaFiltrado = artistaNombre;
 
+            System.Threading.Thread.Sleep(2000);
+
             return PartialView(listado);
         }
     }

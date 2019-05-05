@@ -4,3 +4,9 @@ E:\VS2017_JTG\Labs\Cap09\snlApp\App.Entities.Base\obj\Release\App.Entities.Base.
 E:\VS2017_JTG\Labs\Cap09\snlApp\App.Entities.Base\obj\Release\App.Entities.Base.csproj.CoreCompileInputs.cache
 E:\VS2017_JTG\Labs\Cap09\snlApp\App.Entities.Base\obj\Release\App.Entities.Base.dll
 E:\VS2017_JTG\Labs\Cap09\snlApp\App.Entities.Base\obj\Release\App.Entities.Base.pdb
+D:\GitHub_Ramos\Backend-Mix\Developer_C#_2019\Cap10-MVC\snlApp\App.Entities.Base\bin\Release\App.Entities.Base.dll
+D:\GitHub_Ramos\Backend-Mix\Developer_C#_2019\Cap10-MVC\snlApp\App.Entities.Base\bin\Release\App.Entities.Base.pdb
+D:\GitHub_Ramos\Backend-Mix\Developer_C#_2019\Cap10-MVC\snlApp\App.Entities.Base\obj\Release\App.Entities.Base.csprojAssemblyReference.cache
+D:\GitHub_Ramos\Backend-Mix\Developer_C#_2019\Cap10-MVC\snlApp\App.Entities.Base\obj\Release\App.Entities.Base.csproj.CoreCompileInputs.cache
+D:\GitHub_Ramos\Backend-Mix\Developer_C#_2019\Cap10-MVC\snlApp\App.Entities.Base\obj\Release\App.Entities.Base.dll
+D:\GitHub_Ramos\Backend-Mix\Developer_C#_2019\Cap10-MVC\snlApp\App.Entities.Base\obj\Release\App.Entities.Base.pdb
