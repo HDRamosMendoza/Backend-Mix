@@ -1,0 +1,9 @@
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\bin\Release\App.Data.Repository.Interface.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\bin\Release\App.Data.Repository.Interface.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\bin\Release\App.Entities.Base.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\bin\Release\App.Entities.Base.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\obj\Release\App.Data.Repository.Interface.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\obj\Release\App.Data.Repository.Interface.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\obj\Release\App.Data.Repository.Interface.csproj.CopyComplete
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\obj\Release\App.Data.Repository.Interface.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.Repository.Interface\obj\Release\App.Data.Repository.Interface.pdb

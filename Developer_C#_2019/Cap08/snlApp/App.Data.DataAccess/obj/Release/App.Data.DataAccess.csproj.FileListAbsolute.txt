@@ -1,0 +1,14 @@
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\App.Data.DataAccess.dll.config
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\App.Data.DataAccess.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\App.Data.DataAccess.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\App.Entities.Base.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\EntityFramework.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\App.Entities.Base.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\EntityFramework.xml
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\obj\Release\App.Data.DataAccess.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\obj\Release\App.Data.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\obj\Release\App.Data.DataAccess.csproj.CopyComplete
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\obj\Release\App.Data.DataAccess.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Data.DataAccess\obj\Release\App.Data.DataAccess.pdb

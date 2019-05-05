@@ -1,0 +1,9 @@
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\bin\Release\App.Domain.Interfaces.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\bin\Release\App.Domain.Interfaces.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\bin\Release\App.Entities.Base.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\bin\Release\App.Entities.Base.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\obj\Release\App.Domain.Interfaces.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\obj\Release\App.Domain.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\obj\Release\App.Domain.Interfaces.csproj.CopyComplete
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\obj\Release\App.Domain.Interfaces.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Domain.Interfaces\obj\Release\App.Domain.Interfaces.pdb

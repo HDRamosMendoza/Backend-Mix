@@ -1,0 +1,9 @@
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\bin\Release\App.Services.WCFLib.Interfaces.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\bin\Release\App.Services.WCFLib.Interfaces.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\bin\Release\App.Entities.Base.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\bin\Release\App.Entities.Base.pdb
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.csprojAssemblyReference.cache
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.csproj.CopyComplete
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.dll
+C:\Users\VS2017-DEVELOPER\Desktop\Cap08\snlApp\App.Services.WCFLib.Interfaces\obj\Release\App.Services.WCFLib.Interfaces.pdb
